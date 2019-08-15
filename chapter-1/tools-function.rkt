@@ -1,16 +1,6 @@
 #lang racket
 
-(provide inc)
-(provide dec)
-(provide improve)
-(provide even?)
-(provide divides?)
-(provide square)
-(provide double)
-(provide halve)
-(provide next-odd)
-(provide runtime)
-(provide fast-expt)
+(provide inc dec square runtime next-odd double halve average even? divides? improve fast-expt)
 
 (define (inc x) (+ x 1))
 
