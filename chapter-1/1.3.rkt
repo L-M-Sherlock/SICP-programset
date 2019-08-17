@@ -8,6 +8,6 @@
                  a2))
        (+ a1 a2)))
 
-(sum-of-two-big-of-three 11 23 53)
+(sum-of-two-big-of-three 11 11 13)
 (sum-of-two-big-of-three 96 23 53)
 (sum-of-two-big-of-three 11 88 53)
