@@ -19,14 +19,10 @@
                                      (/ 1.0 p1))))))
 
 (define (make-interval a b) (cons a b))
-
-(define (lower-bound interval)
-  (car interval))
-
-(define (upper-bound interval)
-  (cdr interval))
+(define (lower-bound interval) (car interval))
+(define (upper-bound interval) (cdr interval))
 
 
-(define a (make-interval 0 0.1))
-(define b (make-interval 0.2 0.3))
-(div-interval a b)
+;(define a (make-interval 0 0.1))
+;(define b (make-interval 0.2 0.3))
+;(div-interval a b)
